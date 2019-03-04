@@ -1,0 +1,40 @@
+//plugins {
+//    id 'org.jetbrains.kotlin.jvm' version '1.3.21'
+//}
+
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.3.21'
+    }
+}
+
+
+apply plugin: 'kotlin'
+//apply plugin: 'application'
+
+group 'bufi'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+    compile 'com.google.code.gson:gson:2.8.5'
+
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'com.eltonkola.bufi.BufiApp'
+    }
+    baseName = 'bufi'
+    from {
+        configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}

@@ -1,0 +1,5 @@
+{
+  "title": "Android Toast" ,
+  "link": "http://www.androidz.dev/snippet/toast" ,
+  "description": "Toast.makeToast(this, \"Hello\", Toast.SHORT).show()"
+}
