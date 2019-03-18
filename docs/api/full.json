@@ -1,1 +1,0 @@
-[{"title":"Timestamp","description":"System.currentTimeMillis()","link":"http://www.androidz.dev/snippet/timestamp"},{"title":"Android Toast","description":"Toast.makeToast(this, \"Hello\", Toast.SHORT).show()","link":"http://www.androidz.dev/snippet/toast"}]
