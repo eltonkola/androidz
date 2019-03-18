@@ -47,7 +47,7 @@ jobs:
           echo '---git checkout prod ----'
           git checkout prod
           echo '---git stash apply ----'
-          git stash apply
+          git checkout stash -- .
           echo '---git commit ----'
           git commit --allow-empty -m "Generating snippets"
           # Push quietly to prevent showing the token in log
