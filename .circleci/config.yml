@@ -52,4 +52,4 @@ jobs:
           git commit --allow-empty -m "Generating snippets"
           # Push quietly to prevent showing the token in log
           echo '---git push it ----'
-          git push -q https://${DOCS_GITHUB_TOKEN}@github.com/eltonkola/androidz.git prod
+          git push -f -q https://${DOCS_GITHUB_TOKEN}@github.com/eltonkola/androidz.git prod
