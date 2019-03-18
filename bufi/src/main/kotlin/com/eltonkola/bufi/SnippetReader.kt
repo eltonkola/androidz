@@ -8,7 +8,7 @@ import java.lang.Exception
 class SnippetReader {
 
     private val root = File("../../../snippets/")
-    private val rootOutput = File("../../../docs/api/")
+    private val rootOutput = File("../../../api/")
     private val gson = Gson()
 
     fun generateSnippets() {
