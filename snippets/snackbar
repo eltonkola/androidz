@@ -1,0 +1,7 @@
+{
+  "title": "Snackbar" ,
+  "description": "Snackbar.make(targetView, /"Replace with your own action/", Snackbar.LENGTH_LONG)
+            .setAction("Action", {
+                
+            }).show()"
+}
