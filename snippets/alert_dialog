@@ -1,0 +1,10 @@
+{
+  "title": "Alert dialog" ,
+  "description": "AlertDialog.Builder(context)
+            .setTitle(\"Your Alert\")
+            .setMessage(\"Your Message\")
+            .setCancelable(false)
+            .setPositiveButton(\"Ok\", { dialog, which ->
+
+             }).show()"
+}
