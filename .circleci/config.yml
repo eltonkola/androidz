@@ -37,12 +37,19 @@ jobs:
           git config credential.helper 'cache --timeout=120'
           git config user.email "<email>"
           git config user.name "Deployment Bot"
+          echo '---git status ----'
           git status
+          echo '---git stash ----'
           git stash
+          echo '---git checkout prod ----'
           git checkout prod
+          echo '---git stash apply ----'
           git stash apply
+          echo '---git add quick and full ----'
           git add api/quick.json
           git add api/full.json
+          echo '---git commit ----'
           git commit --allow-empty -m "Generating snippets"
           # Push quietly to prevent showing the token in log
+          echo '---git push it ----'
           git push -q https://${DOCS_GITHUB_TOKEN}@github.com/eltonkola/androidz.git prod
