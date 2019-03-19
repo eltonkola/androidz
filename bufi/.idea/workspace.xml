@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d63d78e-8956-444f-810d-4091695d727b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../.circleci/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/eltonkola/bufi/SnippetReader.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/eltonkola/bufi/SnippetReader.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -56,7 +56,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../.circleci/config.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="402">
@@ -65,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/eltonkola/bufi/SnippetReader.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="36" column="63" selection-start-line="36" selection-start-column="63" selection-end-line="36" selection-end-column="72" />
+            <state relative-caret-position="126">
+              <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -97,8 +97,8 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/eltonkola/bufi/BufiApp.kt" />
         <option value="$PROJECT_DIR$/../.gitignore" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/eltonkola/bufi/SnippetReader.kt" />
         <option value="$PROJECT_DIR$/../.circleci/config.yml" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/eltonkola/bufi/SnippetReader.kt" />
       </list>
     </option>
   </component>
@@ -365,8 +365,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/eltonkola/bufi/SnippetReader.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="36" column="63" selection-start-line="36" selection-start-column="63" selection-end-line="36" selection-end-column="72" />
+        <state relative-caret-position="126">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
         </state>
       </provider>
     </entry>
