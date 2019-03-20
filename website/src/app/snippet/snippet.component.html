@@ -1,0 +1,18 @@
+<div class="trupi">
+
+
+        <div *ngIf="loading">
+                <mat-progress-spinner></mat-progress-spinner>
+                </div>
+                <div *ngIf="snippet">
+                        
+
+<h1 class="mat-display-1">{{snippet.title}}</h1>
+
+
+<pre class="prettyprint lang-kotlin">
+        {{snippet.description}}
+</pre>
+</div>
+
+</div>

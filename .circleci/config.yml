@@ -46,7 +46,6 @@ jobs:
           echo '---git add files ----'
           git add api/quick.json
           git add api/full.json
-
           echo '---git commit ----'
           git commit --allow-empty -m "Generating snippets"
           # Push quietly to prevent showing the token in log

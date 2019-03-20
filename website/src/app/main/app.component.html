@@ -1,0 +1,48 @@
+<div fxFlexFill fxLayout="column" fxLayoutAlign="center center">
+
+  <div class="root_box" fxLayout="column">
+
+    <div *ngIf="loading" fxFlexFill>
+      <mat-progress-spinner></mat-progress-spinner>
+    </div>
+
+    <!-- header -->
+    <div fxLayout="row" fxLayoutAlign="start" class="header_box">
+      <mat-toolbar color="primary" class="mat-elevation-z6" >
+        <mat-toolbar-row>
+
+          <form>
+            <mat-form-field fxFlex="100">
+              <input type="text"
+                     fxFlex="100"
+                     placeholder="Android snippets"
+                     aria-label="Search for a snippet"
+                     matInput [formControl]="myControl"
+                     [matAutocomplete]="auto">
+              <mat-autocomplete #auto="matAutocomplete" fxFlex="100">
+                <mat-option *ngFor="let option of filteredOptions | async" [value]="option.title"
+                            routerLink="snippet/{{option.id}}"
+                >
+                  {{option.title}}
+                </mat-option>
+              </mat-autocomplete>
+            </mat-form-field>
+          </form>
+        </mat-toolbar-row>
+      </mat-toolbar>
+    </div>
+
+    <div fxLayout="row"  class="snippet_box">
+      <router-outlet></router-outlet>
+    </div>
+    <!-- footer -->
+    <div fxLayout="row" fxLayoutAlign="space-between" class="footer_box">
+      <a mat-button *ngFor="let node of linkx" [href]="node.url">
+        {{ node.title }}
+      </a>
+    </div>
+
+  </div>
+
+
+</div>
