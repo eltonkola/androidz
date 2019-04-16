@@ -1,0 +1,5 @@
+{
+  "title": "are Notifications Enabled" ,
+  "link": "http://www.androidz.dev/snippet/areNotificationsEnabled" ,
+  "description": "NotificationManagerCompat.from(context).areNotificationsEnabled()"
+}
